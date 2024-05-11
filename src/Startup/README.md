@@ -51,7 +51,7 @@ Unravel provides a fully configurable ASP.NET Core `IWebHost` on top of `System.
 
     ```csharp
     // Startup.cs
-    public partial class Startup
+    public partial class Startup : Unravel.Application
     {
         public override void ConfigureServices(IServiceCollection services)
         {
